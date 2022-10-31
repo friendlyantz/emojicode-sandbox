@@ -11,7 +11,7 @@ wget https://github.com/emojicode/emojicode/releases/download/v1.0-beta.2/Emojic
 && cd Emojicode-1.0-beta.2-Linux-x86_64 && ./install.sh \
 && cd .. && rm -r Emojicode-1.0-beta.2-Linux-x86_64
 ```
-note: if you encounter error:
+> note: if you encounter error when compiling on Linux:
 ```sh
 sudo apt install libncurses5
 ```
